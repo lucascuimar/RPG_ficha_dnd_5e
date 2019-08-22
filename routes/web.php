@@ -17,3 +17,4 @@ Route::get('/', function () {
 */
 Route::get('/', 'AventuraController@index');
 Route::get('/lista_aventura', 'AventuraController@lista_aventura');
+Route::get('/leia_mais', 'AventuraController@leia_mais');

@@ -15,7 +15,9 @@
       <p class="lead"> @yield('texto_cabecalho')</p>
       <hr class="my-4">
       <div class="">
-        @yield('lista')
+        @yield('corpo')
+      </div>
+      <div class="">
         @yield('navegacao')
       </div>
     </div>

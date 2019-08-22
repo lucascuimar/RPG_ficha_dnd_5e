@@ -8,12 +8,11 @@ Lista de Aventuras
 Abaixo é possivel ver todas as suas aventuras arquivada nesse site.
 @endsection
 
-@section('lista')
+@section('corpo')
 <table class="table table-hover table-dark table-borderless table-responsive-md">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Aventura</th>
       <th scope="col">Aventura</th>
       <th scope="col">botões</th>
     </tr>

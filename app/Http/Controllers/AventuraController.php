@@ -13,4 +13,8 @@ class AventuraController extends Controller
     public function lista_aventura(Request $request){
       return view('aventuras.lista_aventura');
     }
+
+    public function leia_mais(Request $request){
+      return view('informacao.leia_mais');
+    }
 }
